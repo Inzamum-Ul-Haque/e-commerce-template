@@ -1,0 +1,21 @@
+.header-container {
+  height: 60px;
+  background: #03484d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.e-commerce-logo {
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 19px;
+}
+
+.e-commerce-logo img {
+  width: 88px;
+  height: 24px;
+  margin: auto 3px auto 30px;
+}
