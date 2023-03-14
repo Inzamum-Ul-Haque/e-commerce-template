@@ -1,0 +1,61 @@
+.footer-container .upper-part {
+  background: #393939;
+  padding: 40px 70px 40px 70px;
+}
+
+.footer-container .upper-part .links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-container .contact-info,
+.trending,
+.information,
+.customer-care {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+}
+
+.footer-container .contact-info p {
+  margin: 0;
+}
+
+.footer-subheadings {
+  font-size: 22px;
+  color: #00cad7;
+  margin-bottom: 20px;
+}
+
+.footer-container .trending a {
+  text-decoration: none !important;
+  color: white !important;
+  margin: 7px 0;
+  font-size: 17px;
+}
+
+.footer-container .information a {
+  text-decoration: none;
+  color: white;
+  margin: 7px 0;
+  font-size: 17px;
+}
+
+.footer-container .customer-care a {
+  text-decoration: none;
+  color: white;
+  margin: 7px 0;
+  font-size: 17px;
+}
+
+.footer-container .lower-part {
+  background: black;
+}
+
+.footer-container .lower-part p {
+  margin: 0;
+  padding: 5px 0;
+  color: white;
+  font-size: 18px;
+}
