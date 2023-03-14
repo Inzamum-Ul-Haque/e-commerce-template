@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 45px 5px 45px;
 }
 
 .e-commerce-logo {
@@ -17,34 +18,57 @@
 .e-commerce-logo img {
   width: 88px;
   height: 24px;
-  margin: auto 3px auto 30px;
-}
-
-.search-bar {
-  display: flex;
-  font-size: 13px;
-  color: #aba3a3;
-  margin: 15px 25px 15px 25px;
-}
-
-.search-bar input,
-select {
-  padding: 1rem;
-  border: none;
-  outline: none;
-}
-
-.search-bar .all-categories select {
-  font-family: "Roboto", sans-serif;
-  border-radius: 6px 0 0 6px;
-  padding: 1rem;
-}
-
-.search-bar .search-box input {
-  padding: 1rem;
-  border-radius: 0 6px 6px 0;
+  margin: auto 3px auto 0;
 }
 
 .header-icons {
   color: white;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icons .contact {
+  margin-right: 30px;
+}
+
+.header-icons .contact p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.header-icons .contact p:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons .contact svg {
+  font-size: 35px;
+  padding-right: 3px;
+}
+
+.header-icons .contact p a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-icons .cart-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-icons .cart-icons svg {
+  font-size: 25px;
+  padding: 8px;
+}
+
+.header-icons .cart-icons span {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons .cart-icons span svg {
+  padding-right: 2px;
 }

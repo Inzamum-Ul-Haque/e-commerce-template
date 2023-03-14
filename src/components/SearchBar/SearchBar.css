@@ -1,0 +1,24 @@
+.search-bar {
+  display: flex;
+  color: #aba3a3;
+  margin: 15px 25px 15px 25px;
+}
+
+.search-bar input,
+select {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  border: none;
+  outline: none;
+}
+
+.search-bar .all-categories select {
+  font-size: 13px;
+  border-radius: 6px 0 0 6px;
+  border-right: 2px solid #b6b6b6;
+  padding: 1rem;
+}
+
+.search-bar .search-box input {
+  border-radius: 0 6px 6px 0;
+}
