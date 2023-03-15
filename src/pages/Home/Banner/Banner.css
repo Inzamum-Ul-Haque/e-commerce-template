@@ -2,34 +2,32 @@
   position: relative;
 }
 
-.banner-container .slider {
+.banner-container .carousel-item {
   position: relative;
 }
 
-.banner-container .slider .text {
-  text-align: left;
-  width: 490px;
+.banner-container .carousel-item .carousel-caption {
   position: absolute;
-  left: 5%;
+  width: 480px;
+  text-align: left;
+  top: 8%;
+  left: 15%;
+  color: black;
 }
 
-.banner-container .slider .text h1 {
-  font-size: 57px;
-  font-weight: 400;
-  margin-bottom: 10px;
+.banner-container .carousel-item .carousel-caption h3 {
+  font-size: 50px;
 }
 
-.banner-container .slider .text h1 span {
+.banner-container .carousel-item .carousel-caption h3 span {
   color: #0aaeb9;
 }
 
-.banner-container .slider .text p {
-  width: 390px;
-  margin-top: 0;
-  font-size: 15px;
+.banner-container .carousel-item .carousel-caption p {
+  font-size: 16px;
 }
 
-.banner-container .slider .text button {
+.banner-container .carousel-item .carousel-caption button {
   font-size: 15px;
   padding: 8px 15px;
   border: none;
@@ -37,29 +35,4 @@
   color: white;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.banner-container .slider .text button:hover {
-  background-color: #097fae;
-}
-
-.banner-container .slider img {
-  width: 100%;
-}
-
-.banner-container .indicators {
-  position: absolute;
-  left: 50%;
-  bottom: 20px;
-  transform: translateX(-50%);
-}
-
-.banner-container .indicators span {
-  display: inline-block;
-  width: 1.9rem;
-  height: 0.7rem;
-  border-radius: 7px;
-  background-color: #034e53;
-  cursor: pointer;
-  margin-right: 5px;
 }

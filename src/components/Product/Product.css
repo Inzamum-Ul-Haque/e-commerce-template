@@ -1,0 +1,28 @@
+.product-container {
+  border: 1px solid #aeaeae;
+  width: 200px;
+  padding: 15px;
+  text-align: left;
+}
+
+.product-container .product-content h4 {
+  font-size: 12px;
+}
+
+.product-container .product-content h2 {
+  font-size: 15px;
+  color: #034e53;
+}
+
+.product-container .product-content p {
+  font-size: 15px;
+  color: #0aaeb9;
+}
+
+.product-container .product-content button {
+  width: 100%;
+  color: white;
+  border: none;
+  background-color: #15adb7;
+  font-size: 15px;
+}
