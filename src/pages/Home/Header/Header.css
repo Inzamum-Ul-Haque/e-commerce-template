@@ -7,13 +7,9 @@
   padding: 5px 45px 5px 45px;
 }
 
-.e-commerce-logo {
+.header-container .logo-searchbar {
   display: flex;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 19px;
+  gap: 25px;
 }
 
 .e-commerce-logo img {

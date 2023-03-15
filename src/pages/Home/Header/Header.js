@@ -1,16 +1,15 @@
 import React from "react";
 import "./Header.css";
-import winStorelogo from "../../../assets/logo/Vector 1.png";
 import { BsHeadphones, BsCart4, BsPerson } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import SearchBar from "../../../components/SearchBar/SearchBar";
+import Logo from "../../../components/Logo/Logo";
 
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="e-commerce-logo">
-        <img src={winStorelogo} alt="" />
-        <h3>store</h3>
+      <div className="logo-searchbar">
+        <Logo />
         <SearchBar />
       </div>
       <div className="header-icons">

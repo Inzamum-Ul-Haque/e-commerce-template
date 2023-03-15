@@ -1,6 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import winStorelogo from "../../../assets/logo/Vector 1.png";
+import visa from "../../../assets/images/VISA.png";
+import mastercard from "../../../assets/images/MASTER.png";
+import cash from "../../../assets/images/image 128.png";
+import installments from "../../../assets/images/INSLALLMENTS.png";
+import Socials from "../../../components/Socials/Socials";
+import Logo from "../../../components/Logo/Logo";
 
 const Footer = () => {
   return (
@@ -8,15 +13,18 @@ const Footer = () => {
       <div className="upper-part">
         <div className="links">
           <div className="contact-info">
-            <img src={winStorelogo} alt="" />
-            <h3>store</h3>
-            <p className="footer-subheadings">Got questions? Call us 24/7!</p>
-            <p>03 111 666 144</p>
-            <p>03171 777015</p>
-            <p className="footer-subheadings">Contact Info</p>
-            <p>info@winstore.pk</p>
+            <div>
+              <Logo />
+              <p className="footer-subheadings">Got questions? Call us 24/7!</p>
+              <p>03 111 666 144</p>
+              <p>03171 777015</p>
+            </div>
+            <div>
+              <p className="footer-subheadings">Contact Info</p>
+              <p>info@winstore.pk</p>
+            </div>
 
-            <div className="socials"></div>
+            <Socials />
           </div>
           <div className="trending">
             <p className="footer-subheadings">Trending</p>
@@ -46,11 +54,19 @@ const Footer = () => {
             <a href="/">Become a Vendor</a>
           </div>
         </div>
-        <div className="cards">
-          <div className="box">1</div>
-          <div className="box">2</div>
-          <div className="box">3</div>
-          <div className="box">4</div>
+        <div className="cards container">
+          <div className="box">
+            <img src={installments} alt="" />
+          </div>
+          <div className="box">
+            <img src={cash} alt="" />
+          </div>
+          <div className="box">
+            <img src={mastercard} alt="" />
+          </div>
+          <div className="box">
+            <img src={visa} alt="" />
+          </div>
         </div>
       </div>
       <div className="lower-part">

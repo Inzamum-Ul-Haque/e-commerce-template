@@ -22,6 +22,10 @@
   margin: 0;
 }
 
+.footer-container .contact-info div {
+  margin-bottom: 15px;
+}
+
 .footer-subheadings {
   font-size: 22px;
   color: #00cad7;
@@ -33,6 +37,7 @@
   color: white !important;
   margin: 7px 0;
   font-size: 17px;
+  width: max-content;
 }
 
 .footer-container .information a {
@@ -40,10 +45,12 @@
   color: white;
   margin: 7px 0;
   font-size: 17px;
+  width: max-content;
 }
 
 .footer-container .customer-care a {
   text-decoration: none;
+  width: max-content;
   color: white;
   margin: 7px 0;
   font-size: 17px;
@@ -58,4 +65,23 @@
   padding: 5px 0;
   color: white;
   font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.cards .box {
+  width: 95px;
+  height: 55px;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

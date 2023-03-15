@@ -1,33 +1,38 @@
 .navbar-container {
   padding: 15px 45px 15px 45px;
   display: flex;
+  justify-content: space-between;
   text-align: center;
   background: #0e3b3e;
   color: white;
 }
 
-.navbar-container .menu-icon {
+.navbar-container .navbar-container-menu {
+  display: flex;
+}
+
+.navbar-container .navbar-container-menu .menu-icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.navbar-container .menu-icon svg {
+.navbar-container .navbar-container-menu .menu-icon svg {
   cursor: pointer;
 }
 
-.navbar-container .menu-icon h3 {
+.navbar-container .navbar-container-menu .menu-icon h3 {
   margin: 0 35px 0 15px;
   font-size: 20px;
 }
 
-.navbar-container .menu-links a {
+.navbar-container .navbar-container-menu .menu-links a {
   text-decoration: none;
   color: white;
   margin-right: 2rem;
   font-size: 15px;
 }
 
-.navbar-container .menu-links a:hover {
+.navbar-container .navbar-container-menu .menu-links a:hover {
   text-decoration: underline;
 }

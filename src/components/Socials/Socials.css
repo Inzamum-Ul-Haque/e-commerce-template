@@ -1,0 +1,9 @@
+.socials-container {
+  display: flex;
+  gap: 24px;
+}
+
+.socials-container svg {
+  color: white;
+  font-size: 25px;
+}

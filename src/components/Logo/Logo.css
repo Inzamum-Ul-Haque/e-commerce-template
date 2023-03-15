@@ -1,0 +1,9 @@
+.e-commerce-logo {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.e-commerce-logo h3 {
+  font-size: 23px;
+}
