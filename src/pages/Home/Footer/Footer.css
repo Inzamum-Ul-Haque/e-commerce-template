@@ -85,3 +85,36 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Responsiveness
+/* Large device */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-container .upper-part .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Medium device */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-container .upper-part .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small device */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer-container .upper-part .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Extra small device */
+@media screen and (max-width: 575px) {
+  .footer-container .upper-part .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
