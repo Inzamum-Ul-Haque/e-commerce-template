@@ -1,4 +1,5 @@
 .header-container {
+  width: 100%;
   height: max-content;
   background: #03484d;
   display: flex;
@@ -68,4 +69,65 @@
 
 .header-icons .cart-icons span svg {
   padding-right: 2px;
+}
+
+/* Responsiveness */
+/* Extra large device */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* .header-container {
+    justify-content: center;
+    gap: 30px;
+    padding: 5px 0 5px 0;
+  }
+  .header-icons .contact {
+    display: none;
+  }
+  .header-icons .cart-icons svg {
+    padding: 0;
+  } */
+}
+
+/* Large device */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-container {
+    padding: 20px 0;
+    justify-content: center;
+  }
+  .header-icons .contact {
+    display: none;
+  }
+}
+
+/* Medium device */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .header-container {
+    padding: 20px 0;
+    justify-content: center;
+  }
+  .header-icons .contact {
+    display: none;
+  }
+  .header-icons .cart-icons span span {
+    display: none;
+  }
+}
+
+/* Small device */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .header-container {
+    display: block;
+  }
+  .search-bar-container .searchbox .dropdown {
+    display: none;
+  }
+}
+
+/* Extra small device */
+@media screen and (max-width: 575px) {
+  .header-container {
+    display: block;
+  }
+  .search-bar-container .searchbox .dropdown {
+    display: none;
+  }
 }

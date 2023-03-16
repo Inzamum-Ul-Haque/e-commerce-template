@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <div className="home-container">
       <Header />
-      <Navbar />
+      {/* <Navbar />
       <Banner />
       <Slider />
       <NewArrivals />
       <BestDeals />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

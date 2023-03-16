@@ -1,0 +1,35 @@
+.category-container {
+  position: relative;
+  width: 270px;
+  height: 200px;
+}
+
+.category-container .img-container img {
+  width: 100%;
+}
+
+.category-container .category-title {
+  position: absolute;
+  padding: 15px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.57);
+  bottom: 5%;
+  width: 100%;
+  background: rgba(254, 249, 249, 0.95);
+  transform: translateX(-10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.category-container .category-title h2 {
+  margin: 0;
+  font-size: 25px;
+  text-align: left;
+}
+
+.category-container .category-title a {
+  font-size: 21px;
+  text-decoration: none;
+  color: #14b1f0;
+}

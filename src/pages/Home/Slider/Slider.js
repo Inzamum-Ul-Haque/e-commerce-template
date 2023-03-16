@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Category from "../../../components/Category/Category";
 import "./Slider.css";
 
 const Slider = () => {
@@ -23,12 +24,20 @@ const Slider = () => {
     },
   };
 
+  const [categories, setCategories] = useState([]);
+  useEffect(() => {
+    fetch("https://fakestoreapi.com/products/categories")
+      .then((res) => res.json())
+      .then((data) => setCategories(data));
+  }, []);
+
   return (
     <Carousel responsive={responsive}>
-      <div>Item 1</div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-      <div>Item 4</div>
+      {categories.map((category, idx) => (
+        <div key={idx} className="category">
+          <Category category={category} />
+        </div>
+      ))}
     </Carousel>
   );
 };
