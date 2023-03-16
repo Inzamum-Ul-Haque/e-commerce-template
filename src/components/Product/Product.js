@@ -1,15 +1,14 @@
 import React from "react";
 import "./Product.css";
-import tv from "../../assets/images/tv.png";
 
-const Product = () => {
+const Product = ({ product }) => {
   return (
     <div className="product-container">
       <div className="product-content">
-        <h4>Big Baker Electronics</h4>
-        <h2>Samsung 40N5300 S..</h2>
-        <img src={tv} alt="" />
-        <p>$ 109.52</p>
+        <h4>{product.category}</h4>
+        <h2>{product.title}</h2>
+        <img src={product.image} alt="" />
+        <p>$ {product.price}</p>
         <button>Add to cart</button>
       </div>
     </div>

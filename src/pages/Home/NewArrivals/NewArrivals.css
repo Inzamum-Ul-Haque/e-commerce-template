@@ -1,0 +1,19 @@
+.new-arrivals-container {
+  margin: 40px 0 40px 0;
+}
+
+.new-arrivals-container .heading {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.new-arrivals-container .heading span {
+  color: #00cad7;
+}
+
+.new-arrivals-container .products {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  justify-items: center;
+}

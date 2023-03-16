@@ -10,13 +10,25 @@
 }
 
 .product-container .product-content h2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 15px;
   color: #034e53;
+  text-overflow: ellipsis;
 }
 
 .product-container .product-content p {
   font-size: 15px;
   color: #0aaeb9;
+}
+
+.product-container .product-content img {
+  width: 100%;
+  height: 230px;
+  margin: 20px 0 20px 0;
+  padding: 10px;
 }
 
 .product-container .product-content button {
